@@ -1,5 +1,6 @@
 import Contact from "../components/Contact"
 import CustomFaq from "../components/CustomFaq"
+import Feature from "../components/Feature"
 import Footer from "../components/Footer"
 import Hero from "../components/Hero"
 import Navbar from "../components/Navbar"
@@ -10,6 +11,10 @@ const Home = () => {
     <div>
         <div className="mt-16">
             <Navbar/>
+
+        </div>
+        <div className="mt-20">
+          <Feature/>
 
         </div>
         <div className="mt-32">
